@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="methods" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="methods" name="Test2(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="shopperstack.logintest.TestAddresschange">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="logOut"/>
+          <include name="login"/>
+          <include name="ChangeAddress"/>
+        </methods>
+      </class> <!-- shopperstack.logintest.TestAddresschange -->
+      <class name="shopperstack.logintest.ProductSearchTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="testProductSearch"/>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- shopperstack.logintest.ProductSearchTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

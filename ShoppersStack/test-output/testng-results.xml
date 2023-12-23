@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Default suite has started]]>
+    </line>
+    <line>
+      <![CDATA[i am being called for 1 time]]>
+    </line>
+    <line>
+      <![CDATA[demoTesttest has started]]>
+    </line>
+    <line>
+      <![CDATA[executed in Successfully]]>
+    </line>
+    <line>
+      <![CDATA[demoTesttest is successfully executed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-12-23T11:45:17 IST" name="Default suite" finished-at="2023-12-23T11:46:03 IST" duration-ms="45689">
+    <groups>
+    </groups>
+    <test started-at="2023-12-23T11:45:17 IST" name="Default test" finished-at="2023-12-23T11:46:03 IST" duration-ms="45689">
+      <class name="shopperstack.logintest.DemoTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:shopperstack.logintest.DemoTest@5c6648b0]" started-at="2023-12-23T11:45:17 IST" name="launchBrowser" finished-at="2023-12-23T11:45:24 IST" duration-ms="7091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:shopperstack.logintest.DemoTest@5c6648b0]" started-at="2023-12-23T11:45:24 IST" name="login" finished-at="2023-12-23T11:45:50 IST" duration-ms="25499" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[i am being called for 1 time]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="demoTest()[pri:0, instance:shopperstack.logintest.DemoTest@5c6648b0]" started-at="2023-12-23T11:45:50 IST" name="demoTest" finished-at="2023-12-23T11:45:50 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[demoTesttest has started]]>
+            </line>
+            <line>
+              <![CDATA[executed in Successfully]]>
+            </line>
+            <line>
+              <![CDATA[demoTesttest is successfully executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- demoTest -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:shopperstack.logintest.DemoTest@5c6648b0]" started-at="2023-12-23T11:45:50 IST" name="logOut" finished-at="2023-12-23T11:46:01 IST" duration-ms="11098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:shopperstack.logintest.DemoTest@5c6648b0]" started-at="2023-12-23T11:46:01 IST" name="closeBrowser" finished-at="2023-12-23T11:46:03 IST" duration-ms="1922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- shopperstack.logintest.DemoTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
